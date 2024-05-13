@@ -1,0 +1,28 @@
+ESTIMATE of time to complete assignment: 20 hours
+
+        Time        Time
+Date    Started     Spent   Work completed
+----    -------     ----    --------------
+12/7    3:00pm      3:00    Implemented gomoku based on the interface used for Kalah in HW4. Wrote main
+                            function to test with, and experimented by testing with the MCTS policy from HW4
+                            against a random player.
+12/7    7:00pm      1:00    Tested game implementation by having random agents play many games
+                            against each other
+12/9    1:30pm      2:00    Wrote outline and script for video
+12/10   7:00pm      4:00    Recorded, edited, and submitted video
+12/16   7:00pm      5:00    Wrote heuristic and used it to make a greedy agent. Added debugging and board
+                            visualization tools to game code. Debugged for a long time and finally got
+                            greedy agent to very consistently beat the random agent.
+12/17   12:00pm     2:00    Wrote minimax algorithm with iterative deepening and alpha beta pruning and started
+                            testing with heuristic weights to use for genetic algorithms
+12/17   2:00pm      4:00    Wrote and tested genetic algorithm script for minimax heuristic tuning
+12/17   8:00pm      4:00    More testing genetic algorithms, bug fix in game code, wrote makefile and report,
+                            finalized heuristic results of genetic algorithm
+12/18   11:00am     2:00    Final tuning, testing, and report writing
+12/18   5:00pm      1:00    Last changes to report and final testing
+12/19   12:00pm     2:00    More changes to genetic algorithm, testing with varying time for MCTS
+                    ----
+                    30:00   TOTAL time spent
+
+DISCUSSION
+See report obtained by running make TestGomoku.

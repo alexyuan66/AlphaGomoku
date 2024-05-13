@@ -1,0 +1,33 @@
+ESTIMATE of time to complete assignment: 20 hours
+
+        Time        Time
+Date    Started     Spent   Work completed
+----    -------     ----    --------------
+12/7    8:00pm      3:00    Further implemented Gomoku using code based on Kalah in HW4. 
+                            Debugged code and tested on edge cases
+12/8    3:00pm      3:00    Created powerpoint presentation for video
+12/10   7:00pm      4:00    Recorded, edited, and submitted video
+12/16   7:00pm      5:00    Implemented MCTS with UCT0, AMAF and leaf parallelization 
+                            enhancements. Tested implementation and realized there was a 
+                            bug in the Gomoku code. Debugged further and discussed and designed 
+                            the implementation for a greedy agent heuristic. Tested greedy agent 
+                            on random and and MCTS agents.
+12/17   10:00am     2:00    Began planning out implementation for a UCT2 MCTS algorithm with an 
+                            implicit tree.
+12/17   2:00pm      4:00    Implemented UCT2 MCTS algorithm with an implicit tree and experimented
+                            with and debugged code. Implemented AMAF and leaf parallelization enhancements.
+                            Discussed genetic algorithm implementation with partner. Whiteboarded skeleton
+                            code for genetic algorithm.
+12/17   8:00pm      4:00    Finalized UCT2 MCTS algorithm with enhancements and realized there was another 
+                            bug in the Gomoku code. Fixed the bug and experimented. Wrote the report and 
+                            created scripts for overnight testing.
+12/18   11:00am     2:00    Final tuning, testing, and report writing. Ran through spec to ensure everything
+                            was completed.
+12/18   3:00pm      2:00    Additional checking, logging, and documenting code.
+12/19   1:00am      3:00    Realized there was an additional bug in genetic.py, fixed bug, will be using late days for this project
+12/19   9:00am      3:00    Continued debugging, finalized and resubmitted
+                    ----
+                    35:00   TOTAL time spent
+
+DISCUSSION
+See report obtained by running make TestGomoku.
