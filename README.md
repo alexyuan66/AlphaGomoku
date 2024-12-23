@@ -1,6 +1,6 @@
 # Alpha-Gomoku
 ---------------------------------------------------------------------------
-MEMBERS: Aaron Yu (amy23) and Alex Yuan (amy24)
+MEMBERS: Alex Yuan and Aaron Yu
 
 ---------------------------------------------------------------------------
 Required packages: concurrent.futures, argparse
